@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout character</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+             box-sizing: border-box;
+            }
+
+            html{
+              background-color: whitesmoke;
+              height: 200vh;
+              width: auto;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            body{
+                margin: 5% 15% 5% 15%;
+            }
+            .char-card{
+                background-color: ghostwhite;
+                padding: 20px;
+                border-radius: 10px;
+                height: 150vh;
+            }
+            h1{
+                text-align: center;
+            }
+            .char-name{
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-transform: uppercase;
+                font-weight: 800;
+            }
+            table, th, td {
+            
+            padding:  3px 5px 3px 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            /*
+            tr:nth-child(odd) {
+            background-color: #D6EEEE;
+            }
+            */
+            th:nth-child(odd),td:nth-child(odd) {
+            background-color: #D6EEEE;
+            }
+            table{
+                position: relative;
+                top: 60px;
+                margin-left: 80px;
+            }
+            th{
+                text-transform: uppercase;
+            }
+            td{
+                padding-left: 13px;
+            }
+            article{
+                position: relative;
+                top: 25%;
+                margin-left: 80px;
+                margin-right: 60px;
+            }
+            /*image*/
+            
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  width: 30%;
+  height: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+        </style>
+    </head>
+    <body>
+        <div class="char-card">
+            <h1 class="char-name">character name</h1>
+            <table  style="width: 20%;">
+                <tr>
+                    <th>Name</th>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <th>Full Name</th>
+                    <td>Fdfeull Name</td>
+                </tr>
+                <tr>
+                    <th>Born</th>
+                    <td>Full Name</td>
+                </tr>
+                <tr>
+                    <th>age</th>
+                    <td>Full Name</td>
+                </tr>
+                <tr>
+                    <th>Father</th>
+                    <td>Full Name</td>
+                </tr>
+                <tr>
+                    <th>mother</th>
+                    <td>Full Name</td>
+                </tr>
+            </table>
+
+            <div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="175973.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="175973.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="175973.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="175973.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="175973.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="hi.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="175973.jpg" style="width:100%" onclick="currentSlide(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="175973.jpg" style="width:100%" onclick="currentSlide(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="175973.jpg" style="width:100%" onclick="currentSlide(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="175973.jpg" style="width:100%" onclick="currentSlide(4)" alt="4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="175973.jpg" style="width:100%" onclick="currentSlide(5)" alt="5">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="hi.jpg" style="width:100%" onclick="currentSlide(6)" alt="6">
+    </div>
+  </div>
+</div>
+            </div>
+
+
+            <article>
+                <h2>Abilites</h2>
+                <p>
+                    You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+                    If you use a transparent color you will get an overlapping effect.You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+                    If you use a transparent color you will get an overlapping effect.You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+                    If you use a transparent color you will get an overlapping effect.
+                </p>
+            </article>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("demo");
+              let captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>
+                
+    </body>
+</html>
+

@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  @media only screen and (max-width:600px) {
+    /*your css style for size smaller than 900px*/ 
+  }
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    /*your css style for size between 600pz and 90px*/
+  }
+  @media only screen and (min-width: 900px) {
+    /*your css style for size larger than 900px*/
+  }
+  
+  h1,h2,h3,h4,h4,p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /*body*/
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    background-color: #282828;
+    width: 100%;
+    height: 100vh;
+  
+  }
+  .bg-container {
+    position: relative;
+    flex-grow: 10;
+    height: auto;
+    width: 100%;
+    background-size: auto;
+    flex-direction: column;
+    display: flex;
+  }
+  
+
+
+/* navigation bar starting*/
+
+  /*alert message*/
+  .alert {
+    padding: 20px;
+    background-color: #F45E5E;
+    color: white;
+  }
+    
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+    
+  .closebtn:hover {
+    color: black;
+  }
+  
+  /*Navigation Bar*/
+  .Navigation-Bar {
+      display: flex;
+      background-color: #3e3e3e;
+      height: 60px;
+      width: 100%;
+      display: flex;
+      z-index: 1100;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      flex-direction: column;
+      top: 0;
+      left: auto;
+      right: 0;
+      position: fixed;
+  }
+  
+  /*logo*/
+  /*.logo {
+      height: 55px;
+      margin: 0 15px;
+      position: absolute;
+      left: 0;
+      top: 2.5px;
+      padding: 5px;
+      cursor: pointer;
+  }*/
+  .engineering-backlogs-logo{
+    height: 76px;
+    width: auto;
+    position: relative;
+    margin-top: -9px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+  /*navigation bar*/
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .pill-nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #282828;
+    color: white;
+  }
+  
+  .pill-nav a.active {
+    background-color: #F45E5E;
+    color: white;
+  }
+  .position-nav {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+     
+  /*dropdown btn*/
+  .dropbtn {
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3e3e3e;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #F45E5E;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #282828; color: white;}
+  
+  /*search bar*/
+  form.search-bar input[type=text] {
+    padding: 9px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    border-radius:20px;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    position: relative;
+    top: 0;
+    margin-top: -39px;
+    left: 125%;
+    align-items: center;
+    z-index: 4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  form.search-bar button {
+    float: left;
+    width: 40%;
+    padding: 9px;
+    background: #F45E5E;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    border-left: none;
+    cursor: pointer;
+    position: relative;
+    top: -39px;
+    left: 166%;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  form.search-bar button:hover {
+    background: #F97566;
+    border: 0;
+  }
+  
+  form.search-bar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /*login-btn*/
+  .login-btn{
+    padding: 8px;
+    text-align: center;
+    font-weight: 500;
+    width: 20%;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F45E5E;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px  #999;
+    float: left;
+    position: absolute;
+    left: 325%;
+    top: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .login-btn:hover {background-color: #F97566;}
+  
+  .login-btn:active {
+    background-color: #F45E5E;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  
+  /*get started button*/
+  .btn-sign-up{
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 20%;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F45E5E;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px  #999;
+    position: absolute;
+    top: 0;
+    left: 300%;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .btn-sign-up:hover {background-color: #F97566;}
+  
+  .btn-sign-up:active {
+    background-color: #F45E5E;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  /*Navigation bar ending*/
+
+/*main*/
+#main {
+    padding: 0;
+    border-right: none;
+    width: 100%;
+    margin-top: 60px;
+}
+.bg-1{
+  background-color: #38444D;
+  height: 16.5vh;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.bg-1-container{
+  margin: 0 10% 0 10%;
+  padding: 0 90px 0 90px;
+}
+.bg-2{
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.bg-2-container{
+  margin: 0 20% 0 20%;
+  justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    border-radius: 15px;
+    padding:24px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    background-color:white;
+  }
+  
+  .container {
+    padding:2% 3%;
+    color:black;
+    background-color:white;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display:table;
+  }  
+  .course-h2{
+    font-size:45px;
+    font-weight:1200;
+    margin: 30px 30px 30px 10px;
+    text-decoration: none;
+}
+.course-h5{
+    height:50px;
+    margin: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/*footer*/
+.footer{
+    background-color: #282828;
+    height: 50vh;
+    width: 100%;
+    border-top: 1px solid #999;
+  }
+  .footer-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 60px 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-logo{
+    width: 70px;
+    height: auto;
+  }
+  .footer-links{
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+  .ga-bottom{
+    color: #999;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    float: left;
+    padding-right: 10px;
+  }
+  .ga-bottom:hover{
+    text-decoration: underline;
+    color: white;
+  }
+  .icons{
+    color: #999;
+    text-decoration: none;
+    float: left;
+    font-size:26px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .icons:hover{
+    color: white;
+    background-color: #666;
+    border-radius: 10px;
+  }
+  .jss121 {
+    height: 10px;
+    margin-left: 6px;
+  }
