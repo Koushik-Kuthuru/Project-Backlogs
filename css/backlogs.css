@@ -64,7 +64,7 @@ body {
 
 /*Navigation Bar*/
 .Navigation-Bar {
-    background-color: #3e3e3e;
+    background-color: #efefef;
     height: 60px;
     width: 100%;
     display: flex;
@@ -109,7 +109,7 @@ body {
 
 .pill-nav a {
   display: inline-block;
-  color: white;
+  color: #282828;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -120,8 +120,8 @@ body {
 }
 
 .pill-nav a:hover {
-  background-color: #282828;
-  color: white;
+  background-color: #cccccc;
+  color: black;
 }
 
 .pill-nav a.active {
@@ -138,7 +138,7 @@ body {
    
 /*dropdown btn*/
 .dropbtn {
-  color: white;
+  color: #282828;
   background-color: transparent;
   padding: 10px;
   font-size: 16px;
@@ -157,7 +157,8 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #3e3e3e;
+  background-color: #cccccc;
+  color: #282828;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -165,7 +166,7 @@ body {
 }
 
 .dropdown-content a {
-  color: white;
+  color: #282828;
   text-align: left;
   text-decoration: none;
   display: block;
@@ -173,11 +174,11 @@ body {
 .padding-left-5px{
   padding-left: 0 5px;
 }
-.dropdown-content a:hover {background-color: #F45E5E;}
+.dropdown-content a:hover {background-color: #F45E5E; color: white;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #282828; color: white;}
+.dropdown:hover .dropbtn {background-color: #cccccc; color: black;}
 
 /*search bar*/
 form.search-bar input[type=text] {
@@ -188,7 +189,7 @@ form.search-bar input[type=text] {
   border-radius:20px;
   float: left;
   width: 70%;
-  background: #f1f1f1;
+  background: #cccccc;
   position: relative;
   top: 0;
   margin-top: -39px;
@@ -203,7 +204,7 @@ form.search-bar button {
   width: 40%;
   padding: 9px;
   background: #F45E5E;
-  color: white;
+  color: #000;
   border-radius: 20px;
   font-size: 17px;
   border: 0;
@@ -218,6 +219,7 @@ form.search-bar button {
 
 form.search-bar button:hover {
   background: #F97566;
+  color: white;
   border: 0;
 }
 
@@ -238,6 +240,7 @@ form.search-bar::after {
   text-decoration: none;
   color: #fff;
   background-color: #F45E5E;
+  color: #000;
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px  #999;
@@ -249,7 +252,7 @@ form.search-bar::after {
   font-weight: 500;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.login-btn:hover {background-color: #F97566;}
+.login-btn:hover {background-color: #F97566; color: white;}
 
 .login-btn:active {
   background-color: #F45E5E;
@@ -270,6 +273,7 @@ form.search-bar::after {
   text-decoration: none;
   color: #fff;
   background-color: #F45E5E;
+  color: #000;
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px  #999;
@@ -280,7 +284,7 @@ form.search-bar::after {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.btn-sign-up:hover {background-color: #F97566;}
+.btn-sign-up:hover {background-color: #F97566; color: white;}
 
 .btn-sign-up:active {
   background-color: #F45E5E;
