@@ -62,7 +62,7 @@
   }
   /*Navigation Bar*/
 .Navigation-Bar {
-  background-color: #efefef;
+  background-color: white;
   height: 60px;
   width: 100%;
   display: flex;
@@ -74,6 +74,7 @@
   left: auto;
   right: 0;
   position: fixed;
+  border-bottom: 1px solid #282828;
 }
 .menu-bar{
 display: none;
@@ -334,60 +335,58 @@ transform: translateY(4px);
     padding-top: 10px;
 }
 
-
-
 /*footer*/
 .footer{
-    background-color: #282828;
-    height: 50vh;
-    width: 100%;
-    border-top: 1px solid #999;
-  }
-  .footer-container{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 60px 0 32px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer-logo{
-    width: 70px;
-    height: auto;
-  }
-  .footer-links{
-    font-size: 20px;
-    color: #ffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    padding-left: 40px;
-    padding-right: 100px;
-  }
-  .ga-bottom{
-    color: #999;
-    font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
-    float: left;
-    padding-right: 10px;
-  }
-  .ga-bottom:hover{
-    text-decoration: underline;
-    color: white;
-  }
-  .icons{
-    color: #999;
-    text-decoration: none;
-    float: left;
-    font-size:26px;
-    margin-right: 10px;
-    padding: 10px;
-  }
-  .icons:hover{
-    color: white;
-    background-color: #666;
-    border-radius: 10px;
-  }
-  .jss121 {
-    height: 10px;
-    margin-left: 6px;
-  }
+  background-color: #fff;
+  height: 50vh;
+  width: 100%;
+  border-top: 1px solid #282828;
+}
+.footer-container{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 60px 0 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-logo{
+  width: 70px;
+  height: auto;
+}
+.footer-links{
+  font-size: 20px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  float: left;
+  padding-left: 40px;
+  padding-right: 100px;
+}
+.ga-bottom{
+  color: #38444D;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  float: left;
+  padding-right: 10px;
+}
+.ga-bottom:hover{
+  text-decoration: underline;
+  color: black;
+}
+.icons{
+  color: #38444D;
+  text-decoration: none;
+  float: left;
+  font-size:26px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.icons:hover{
+  color: black;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.jss121 {
+  height: 10px;
+  margin-left: 6px;
+}

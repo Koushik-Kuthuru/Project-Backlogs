@@ -242,10 +242,10 @@ body{
 
 /*footer*/
 .footer{
-    background-color: #282828;
+    background-color: #fff;
     height: 50vh;
     width: 100%;
-    border-top: 1px solid #999;
+    border-top: 1px solid #282828;
   }
   .footer-container{
     margin-left: 10%;
@@ -260,14 +260,14 @@ body{
   }
   .footer-links{
     font-size: 20px;
-    color: #ffff;
+    color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: left;
     padding-left: 40px;
     padding-right: 100px;
   }
   .ga-bottom{
-    color: #999;
+    color: #38444D;
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
@@ -276,10 +276,10 @@ body{
   }
   .ga-bottom:hover{
     text-decoration: underline;
-    color: white;
+    color: black;
   }
   .icons{
-    color: #999;
+    color: #38444D;
     text-decoration: none;
     float: left;
     font-size:26px;
@@ -287,11 +287,12 @@ body{
     padding: 10px;
   }
   .icons:hover{
-    color: white;
-    background-color: #666;
+    color: black;
+    background-color: transparent;
     border-radius: 10px;
   }
   .jss121 {
     height: 10px;
     margin-left: 6px;
   }
+  
