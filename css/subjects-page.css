@@ -310,7 +310,7 @@ transform: translateY(4px);
     z-index: 1;
     top: 60px;
     left: 0;
-    background-color: #cccccc;
+    background-color: #475966;
     overflow-x: hidden;
     padding-top: 20px;
     border-right: 1px solid #282828;
@@ -318,11 +318,25 @@ transform: translateY(4px);
 
   
   /* Style the sidenav links and the dropdown button */
-  .sidenav a, .dropdown-btn {
+  .sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 18px;
-    color: #282828;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+   .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
     display: block;
     border: none;
     background: none;
@@ -339,11 +353,11 @@ transform: translateY(4px);
   
   /* On mouse-over */
   .sidenav a:hover {
-    color: #000;
-    background-color: #cccccc;
+    color: white;
   }
   .dropdown-btn:hover{
     color: black;
+    background-color: #8eabc1;
   }
   /* Main content */
   .main {
@@ -361,13 +375,16 @@ transform: translateY(4px);
   /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .dropdown-container {
     display: none;
-    background-color: #eeee;
+    background-color: #536674;
     transition: max-height 0.3s ease;
     padding-left: 8px;
     padding-right: 8px;
   }
   .dropdown-container a {
     border-radius: 5px;
+  }
+  .dropdown-container:hover{
+    color: white;
   }
   /* Optional: Style the caret down icon */
   .fa-caret-down {
@@ -378,12 +395,17 @@ transform: translateY(4px);
 .bg-container{
     background-color: whitesmoke;
     padding: 10px;
-    height: 100%;
+    height: 190vh;
     width: 100%;
 }
 .bg-container-1{
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 5%;
+}
+.image-main{
+  width: 250px;
+  border-radius: 10px;
 }
 
 
