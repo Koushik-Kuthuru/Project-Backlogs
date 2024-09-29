@@ -309,7 +309,7 @@ transform: translateY(4px);
 /* Fixed sidenav, full height */
 .sidenav {
     height: 100%;
-    width: 15%;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 60px;
@@ -365,7 +365,7 @@ transform: translateY(4px);
   }
   /* Main content */
   .main {
-    margin-left: 240px; /* Same as the width of the sidenav */
+    margin-left: 300px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 0px;
   }
@@ -404,75 +404,14 @@ transform: translateY(4px);
     background-color: whitesmoke;
     padding: 10px;
     height: auto;
-    width: 86.5%;
+    width: 100%;
 
 }
 .bg-container-1{
-    margin: 5%;
-}
-.image-main{
-  width: 250px;
-  border-radius: 10px;
+    
+    margin-left: 10%;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-row-gap: 32px;
-  grid-column-gap: 20px;
-}
-.grid-item{
-  width: 180px;
-}
-.CourseCard {
-  position: relative;
-  top: 0;
-  cursor: pointer;
-}
-.CourseCard-Img {
-  padding-top: 100%;
-  border-radius: 0;
-  position: relative;
-
-}
-.MuiCardMedia-root {
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.jss218:last-child {
-  padding: 0;
-}
-.MuiCardContent-root:last-child {
-  padding-bottom: 24px;
-}
-.jss218 {
-  padding: 0;
-  margin-top: 12px;
-}
-.MuiCardContent-root {
-  padding: 16px;
-  text-decoration: none;
-}
-
-.CourseCard-Title {
-  color:#282828;
-  margin-top: 0;
-  padding-left: 5px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: .15px;
-
-}
-.next-btn{
-  color: white;
-  background-color: #F45E5E;
-  border-radius: 5px;
-}
 
 
   
