@@ -309,7 +309,7 @@ transform: translateY(4px);
 /* Fixed sidenav, full height */
 .sidenav {
     height: 100%;
-    width: 15%;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 60px;
@@ -403,9 +403,8 @@ transform: translateY(4px);
 .bg-container{
     background-color: whitesmoke;
     padding: 10px;
-    height: auto;
-    width: 86.5%;
-
+    height: 300vh;
+    width: 85vw;
 }
 .bg-container-1{
     margin: 5%;
@@ -468,11 +467,7 @@ transform: translateY(4px);
   letter-spacing: .15px;
 
 }
-.next-btn{
-  color: white;
-  background-color: #F45E5E;
-  border-radius: 5px;
-}
+
 
 
   

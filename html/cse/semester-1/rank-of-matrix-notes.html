@@ -57,9 +57,9 @@
                 <button class="dropdown-btn"> <b>UNIT-I: Matrices</b> <i class="fa fa-caret-down"></i> </button>
                 <div class="dropdown-container">
                   <br>
-                  <a href="rank-of-matrix.html" style="color: black; background-color: white;"><i class="fa fa-play-circle" style="font-size:15px; padding-right: 6px"></i> Rank of a matrix</a>
+                  <a href="rank-of-matrix.html"><i class="fa fa-play-circle" style="font-size:15px; padding-right: 6px"></i> Rank of a matrix</a>
                   <br>
-                  <a href="rank-of-matrix-notes.html"> <i style='font-size:14px; padding-right: 7px;' class='fas'>&#xf518;</i>Rank of a matrix | Notes</a>
+                  <a href="rank-of-matrix-notes.html" style="color: black; background-color: white;"> <i style='font-size:14px; padding-right: 7px;' class='fas'>&#xf518;</i>Rank of a matrix | Notes</a>
                   <hr>
                   <a href="#"> <i class="fa fa-play-circle" style="font-size:15px; padding-right: 7px"></i>Echelon form</a>
                   <br>
@@ -202,19 +202,73 @@
           <div class="bg-container">
             <div class="bg-container-1">
               <br>
-              <a href="rank-of-matrix-notes.html" class="next-btn">Next > </a>
+              <a href="rank-of-matrix.html" class="previous-btn "> < Previous </a>
+              <a href="#" class="next-btn"> Next > </a>
               <br><br>
               <hr>
-              <h2><b>Rank of a matrix</b></h2>
+              <h2><b>Rank of a matrix | Notes</b></h2>
               <hr>
               <br>
-              <iframe width="100%" height="700" src="https://www.youtube.com/embed/vtv73A0ZYpw?si=iqP5-7GW5LoZBbnh&amp;start=6?rel=0"
-               title="YouTube video player" frameborder="0" 
-               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+              <p><b><strong>Rank of a Matrix</strong></b><span> is defined as the dimension of the vector space formed by its columns. </span><b><strong>Rank of a Matrix</strong></b><span> is a very <br> 
+                important concept in the field of Linear Algebra, as it helps us to know if we can find a solution to the system of <br> equations or not. Rank of a matrix also  helps us know the dimensionality of its vector space. </span></p>
+               <br>
+                <h2><b><strong>What is Rank of Matrix?</strong></b></h2>
+                <p>Rank of a Matrix is a fundamental concept in Linear Algebra, which measures the maximum number of linearly <br> independent 
+                 rows or columns in any matrix. In other words, it tells you how many of the rows or columns <br> of a matrix are  not useful and  
+                 contribute to the overall information or dimensionality of the matrix. <br>Let's define the Rank of a Matrix.</p>
+                <br>
+                <h4><b>Rank of a Matrix Definition</b></h4>
+                <blockquote>
+                    <p>Rank of a matrix is defined as the number of linearly independent rows in a matrix. </p>
+                </blockquote>
+                <p>It is denoted using p(A) where A is any matrix. Thus the number of rows of a matrix is a limit on the  rank <br>of the matrix, 
+                 which means the rank of the matrix cannot exceed the total number of rows in a matrix.</p>
+                <p>For example, if a matrix is of the order 3×3 then the maximum rank of a matrix can be 3.</p>
+                <blockquote>
+                    <p><b>Note:</b>If a matrix has all rows with zero elements, then the rank of a matrix is said to be zero.</p>
+                </blockquote>
+
+                <h2><b><strong>How To Calculate Rank of a Matrix?</strong></b></h2>
+                <p>There are 3 methods which can be used to get the rank of any given matrix.</p>
+                <p>These methods are as follows:</p>
+                <p>
+                    <ul>
+                        <li>Minor Method</li>
+                        <li>Using Echelon Form</li>
+                        <li>Using Normal Form</li>
+                    </ul>
+                </p>
+                <br>
+                <h3><b><strong>Minor Method</strong></b></h3>
+                <p>In order to find the rank of a matrix using minor method, following steps are <br> followed:</p>
+                <p>
+                    <ul>
+                        <li>Calculate the determinant of the matrix (say A). If det(A) ≠ 0, then rank of matrix A = order of <br> matrix A.</li>
+                        <li>If det(A) = 0, then the rank of the matrix is equal to order of the maximum <br> possible non zero minor of the matrix.</li>
+                    </ul>
+                </p>
+                <br>
+                <h3><b><strong>Properties of Rank of Matrix</strong></b></h3>
+                <p>Properties of rank of matrix is as follows:</p>
+                <p>
+                    <ul>
+                        <li>Rank of a matrix is equal to the order of the matrix if it is a non-singular <br> matrix.</li>
+                        <li>Rank of a matrix is equal to the number of non-zero rows if it is in Echelon <br> Form.</li>
+                        <li>Rank of matrix is equal to the order of identity matrix in it if it is in normal <br> form.</li>
+                        <li>Rank of matrix < Order of matrix if it is singular matrix.</li>
+                        <li>Rank of matrix < minimum {m, n} if it is a rectangular matrix of order m x n.</li>
+                        <li>Rank of identity matrix is equal to the order of the identity matrix.</li>
+                        <li>Rank of a zero matrix or a null matrix is zero.</li>
+                    </ul>
+                </p>
+                <br>
+                <h2><b><strong>Examples of Rank of a Matrix:</strong></b></h2>
+                <embed src= "rank-of-matrix-notes.pdf" width= "1000" height= "1000">
+                <br>                
             <br>
             <br>
-            <a href="rank-of-matrix-notes.html" class="next-btn">Next > </a>
+            <a href="rank-of-matrix.html" class="previous-btn "> < Previous </a>
+            <a href="#" class="next-btn">Next > </a>
             <br>
 
             </div>
@@ -261,7 +315,6 @@
               </div>
           </div>
         </div>
-        
         </div>
         </div>
 
