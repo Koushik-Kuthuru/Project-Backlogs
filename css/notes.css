@@ -9,7 +9,15 @@
   }
   
   @media only screen and (max-width:600px) {
-    /*your css style for size smaller than 900px*/ 
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      display: flex;
+      background-color: #282828;
+      width: 100%;
+      height: 100vh;
+    
+    }
   }
   @media only screen and (min-width: 600px) and (max-width: 900px) {
     /*your css style for size between 600pz and 90px*/
