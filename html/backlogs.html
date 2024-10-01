@@ -32,7 +32,12 @@
               <a href="#" class="icons"><i class='fab fa-linkedin' ></i></a>
               <a href="#" class="icons"><i class='fab fa-twitter-square' ></i></a>
             </div>
+
+            <div class="mymenu" onclick="openNavmenu()" >
+               menu
+            </div>
              <div><a href="./backlogs.html"><img src="../images/EB-LOGO.png" class="engineering-backlogs-logo" title="Home"/></a></div>
+             <div></div>
             <div class="position-nav">
               <div class="pill-nav" id="menuList">
                <div class="dropdown">
@@ -54,11 +59,12 @@
                <a href="./notes.html" title="Subject Notes" class="padding-left-5px">Notes</a>
                <a href="#about" title="Previous Years Question Papers" class="padding-left-5px">Past Papers</a>
                <a href="#earn" title="Earn Money online" class="padding-left-5px">Earn</a>
+            </div>               
               <form class="search-bar" action="/action_page.php" style="margin:auto;max-width:300px">
                 <input type="text" placeholder="Search.." name="search2" >
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
-            </div>
+
             <a href="./login-page.html" class="login-btn" title="Come Back">LOGIN</a>
             <a href="./sign-in.html" class="btn-sign-up" title="Create a new account">SIGN UP</a>
             </div>    
@@ -312,6 +318,15 @@
       </div>
       </div>
       <script>
+        /*menu*/
+        function openNavmenu() {
+  document.getElementById("mymenu").style.width = "100%";
+}
+
+function closeNavmenu() {
+  document.getElementById("mymenu").style.width = "0";
+}
+
         /*sidenav-bar*/
         function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
