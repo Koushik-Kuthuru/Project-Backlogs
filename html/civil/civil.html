@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../../css/btech-courses.css">
+        <link rel="stylesheet" type="text/css" href="../../css/backlogs.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -14,7 +15,19 @@
             <!--Navigation Bar-->
 <!--Navigation Bar-->
           <nav class="Navigation-Bar">
-                    <span class="menu-bar" onclick="openNav()">&#9776;</span>
+            <span class="menu-bar" onclick="openNav()">&#9776;</span>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <hr>
+              <a href="../courses.html">Courses</a> <hr>
+              <a href="../syllabus.html">Syllabus</a> <hr>
+              <a href="../notes.html">Notes</a> <hr>
+              <a href="#">Past Papers</a> <hr>
+              <a href="#">Earn</a> <hr>
+              <a href="#" class="icons"><i class='fab fa-instagram' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-facebook-square' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-linkedin' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-twitter-square' ></i></a>
+            </div>                    <span class="menu-bar" onclick="openNav()">&#9776;</span>
             <a href="../backlogs.html">
             <!--<img src="logo.png" class="logo"/>-->
             <img src="../../images/EB-LOGO.png" class="engineering-backlogs-logo" title="Home"/>
@@ -51,118 +64,118 @@
           </nav>
 
         <!--main--> 
-        <div class="main" id="main">
+        <div class="main" id="btech-main">
             <div>
-              <div class="bg-1" style="background-image: linear-gradient(to right, rgba(91, 91, 91, 0.6), rgba(81, 82, 82, 0.6)), url('../../images/background-civil.png');">
-              <div class="bg-1-container">
+              <div class="btech-bg-1" style="background-image: linear-gradient(to right, rgba(91, 91, 91, 0.6), rgba(81, 82, 82, 0.6)), url('../../images/background-civil.png');">
+              <div class="btech-bg-1-container">
                 <h2 class="btech-course-name">CIVIL ENGINEERING </h2>
               </div>
               </div> <!--bg-1 END-->
 
-              <div class="bg-2">
-                <div class="bg-2-container">
+              <div class="btech-bg-2">
+                <div class="btech-bg-2-container">
                   <div id="semester-1">
-                    <h3 class="sem-h3">I YEAR I SEMESTER</h3>
+                    <h3 class="btech-sem-h3">I YEAR I SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!-- Matrices and Calculus-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/Matrices-and-Calculus.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/Matrices-and-Calculus.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Matrices and Calculus</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Matrices and Calculus</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Engineering Chemistry-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/ec.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/ec.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Engineering Chemistry</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Engineering Chemistry</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Programming for Problem Solving -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/Programming-for-Problem-Solving.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/Programming-for-Problem-Solving.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Programming for Problem Solving</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Programming for Problem Solving</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Basic Electrical Engineering -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/basic-electrical-engineering.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/basic-electrical-engineering.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Basic Electrical Engineering</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Basic Electrical Engineering</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Computer Aided Engineering Graphics-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/computer-aided-engineering-graphics.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/computer-aided-engineering-graphics.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Computer Aided Engineering Graphics</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Computer Aided Engineering Graphics</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Engineering Chemistry Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/ec-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/ec-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Engineering Chemistry Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Engineering Chemistry Lab</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Programming for Problem Solving Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/pps-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/pps-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Programming for Problem Solving Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Programming for Problem Solving Lab</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Basic Electrical Engineering Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/bee-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/bee-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Basic Electrical Engineering Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Basic Electrical Engineering Lab</h4>
                                     </div>
                                 </div>
                             </a>
@@ -172,121 +185,121 @@
                   </div><!--SEM-1 end-->
                   <br>
                   <div id="semester-2">
-                    <h3 class="sem-h3">I YEAR II SEMESTER</h3>
+                    <h3 class="btech-sem-h3">I YEAR II SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--  Ordinary Differential Equations and Vector Calculus-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/ordinary-differential-equations-and-vector-calculus.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/ordinary-differential-equations-and-vector-calculus.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Ordinary Differential Equations and
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Ordinary Differential Equations and
                                             Vector Calculus</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Applied Physics-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/applied-physics.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/applied-physics.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Applied Physics</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Applied Physics</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Engineering Workshop -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/engineering-workshop.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/engineering-workshop.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Engineering Workshop</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Engineering Workshop</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  English for Skill Enhancement -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/english-for-skill-enhancement.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/english-for-skill-enhancement.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> English for Skill Enhancement</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> English for Skill Enhancement</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Electronic Devices and Circuits-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/electronic-devices-circuits.png');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/electronic-devices-circuits.png');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> Electronic Devices and Circuits</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> Electronic Devices and Circuits</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!--  Python Programming Laboratory-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/python-programming-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/python-programming-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Python Programming Laboratory</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Python Programming Laboratory</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--  Applied Physics Laboratory-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/applied-physics-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/applied-physics-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Applied Physics Laboratory</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Applied Physics Laboratory</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--   English Language and Communication Skills Laboratory-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/ELCS-lab.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/ELCS-lab.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">English Language and Communication Skills Laboratory</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">English Language and Communication Skills Laboratory</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
 
                       <!--IT Workshop-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/it-workshop.png');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/it-workshop.png');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">IT Workshop</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">IT Workshop</h4>
                                     </div>
                                 </div>
                             </a>
@@ -296,107 +309,107 @@
                   </div><!--sem-2 end-->
                   <br>
                   <div id="semester-3">
-                    <h3 class="sem-h3">II YEAR I SEMESTER</h3>
+                    <h3 class="btech-sem-h3">II YEAR I SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Computer Oriented Statistical Methods-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Computer Oriented Statistical Methods </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Computer Oriented Statistical Methods </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Computer Organization and Architecture-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Computer Organization and Architecture</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Computer Organization and Architecture</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Object Oriented Programming through Java-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Object Oriented Programming through Java</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Object Oriented Programming through Java</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Data Structures -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Data Structures</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Data Structures</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Digital Electronics-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> Digital Electronics</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> Digital Electronics</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Object Oriented Programming through Java Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Object Oriented Programming through Java Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Object Oriented Programming through Java Lab</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--  Data visualization- R Programming/Power BI-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Data visualization- R Programming/Power BI</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Data visualization- R Programming/Power BI</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--   Data Structures Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Data Structures Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Data Structures Lab</h4>
                                     </div>
                                 </div>
                             </a>
@@ -406,107 +419,107 @@
                   </div><!--sem-3 end-->
                   <br>
                   <div id="semester-4">
-                    <h3 class="sem-h3">II YEAR II SEMESTER</h3>
+                    <h3 class="btech-sem-h3">II YEAR II SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Discrete Mathematics-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Discrete Mathematics </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Discrete Mathematics </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Business Economics & Financial Analysis -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Business Economics & Financial Analysis</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Business Economics & Financial Analysis</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Operating Systems -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Operating Systems</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Operating Systems</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Database Management Systems -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Database Management Systems</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Database Management Systems</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Software Engineering-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> Software Engineering </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> Software Engineering </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Operating Systems Lab -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Operating Systems Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Operating Systems Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Database Management Systems Lab -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Database Management Systems Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Database Management Systems Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Node JS/ React JS/ Django -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Node JS/ React JS/ Django</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Node JS/ React JS/ Django</h4>
                                     </div>
                                 </div>
                             </a>
@@ -516,119 +529,119 @@
                   </div><!--sem-4 end-->
                   <br>
                   <div id="semester-5">
-                    <h3 class="sem-h3">III YEAR I SEMESTER</h3>
+                    <h3 class="btech-sem-h3">III YEAR I SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Design and Analysis of Algorithms-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Design and Analysis of Algorithms </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Design and Analysis of Algorithms </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Computer Networks -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Computer Networks</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Computer Networks</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  DevOps -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">DevOps</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">DevOps</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Principles of Programming Languages -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Principles of Programming Languages </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Principles of Programming Languages </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Computer Graphics -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> Computer Graphics </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> Computer Graphics </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Computer Networks Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Computer Networks Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Computer Networks Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- DevOps Lab -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">DevOps Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">DevOps Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--Advanced English Communication Skills Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Advanced English Communication Skills Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Advanced English Communication Skills Lab</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--UI design- Flutter-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">UI design- Flutter</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">UI design- Flutter</h4>
                                     </div>
                                 </div>
                             </a>
@@ -639,107 +652,107 @@
                   </div><!--sem-5 end-->
                   <br>
                   <div id="semester-6">
-                    <h3 class="sem-h3">III YEAR II SEMESTER</h3>
+                    <h3 class="btech-sem-h3">III YEAR II SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Machine Learning-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Machine Learning </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Machine Learning </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Formal Languages and Automata Theory -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Formal Languages and Automata Theory</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Formal Languages and Automata Theory</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Artificial Intelligence-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Artificial Intelligence</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Artificial Intelligence</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Professional Elective – III  -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Professional Elective – III </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Professional Elective – III </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Open Elective-I -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Open Elective-I </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Open Elective-I </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Machine Learning Lab -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Machine Learning Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Machine Learning Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Artificial Intelligence Laboratory-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Artificial Intelligence Laboratory </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Artificial Intelligence Laboratory </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!-- Professional Elective-III Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Professional Elective-III Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Professional Elective-III Lab</h4>
                                     </div>
                                 </div>
                             </a>
@@ -749,95 +762,95 @@
                   </div><!--sem-6 end-->
                   <br>
                   <div id="semester-7">
-                    <h3 class="sem-h3">IV YEAR I SEMESTER</h3>
+                    <h3 class="btech-sem-h3">IV YEAR I SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Cryptography and Network Security-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Cryptography and Network Security</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Cryptography and Network Security</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!--Compiler Design-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Compiler Design</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Compiler Design</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--Professional Elective -IV-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Professional Elective -IV</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Professional Elective -IV</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Professional Elective -V -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Professional Elective -V</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Professional Elective -V</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!-- Open Elective - II -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title"> Open Elective - II </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title"> Open Elective - II </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     </div>
-                    <h3 class="course-h3">Laboratory:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Laboratory:</h3>
+                    <div class="btech-grid-container">
 
                         <!-- Cryptography and Network Security Lab -->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Cryptography and Network Security Lab </h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Cryptography and Network Security Lab </h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <!--Compiler Design Lab-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title">Compiler Design Lab</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title">Compiler Design Lab</h4>
                                     </div>
                                 </div>
                             </a>
@@ -847,42 +860,42 @@
                   </div><!--sem-7 end-->
                   <br>
                   <div id="semester-8">
-                    <h3 class="sem-h3">IV YEAR II SEMESTER</h3>
+                    <h3 class="btech-sem-h3">IV YEAR II SEMESTER</h3>
                     <hr>
-                    <h3 class="course-h3">Courses:</h3>
-                    <div class="grid-container">
+                    <h3 class="btech-course-h3">Courses:</h3>
+                    <div class="btech-grid-container">
                     <!--Organizational Behavior-->
-                        <div class="grid-item">
+                        <div class="btech-grid-item">
                             <a href="#" style="text-decoration: none;">
-                                <div class="CourseCard">
-                                    <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                                <div class="btech-CourseCard">
+                                    <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                     </div>
-                                    <div class="MuiCardContent-root jss218">
-                                        <h4 class=" CourseCard-Title"> Organizational Behavior</h4>
+                                    <div class="btech-MuiCardContent-root btech-jss218">
+                                        <h4 class="btech-CourseCard-Title"> Organizational Behavior</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     <!-- Professional Elective – VI-->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Professional Elective – VI</h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Professional Elective – VI</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <!--  Open Elective – III -->
-                    <div class="grid-item">
+                    <div class="btech-grid-item">
                         <a href="#" style="text-decoration: none;">
-                            <div class="CourseCard">
-                                <div class="CourseCard-Img MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
+                            <div class="btech-CourseCard">
+                                <div class="btech-CourseCard-Img btech-MuiCardMedia-root" style="background-image: url('../../images/canva.jpeg');">
                                 </div>
-                                <div class="MuiCardContent-root jss218">
-                                    <h4 class=" CourseCard-Title">Open Elective – III </h4>
+                                <div class="btech-MuiCardContent-root btech-jss218">
+                                    <h4 class="btech-CourseCard-Title">Open Elective – III </h4>
                                 </div>
                             </div>
                         </a>
@@ -899,10 +912,10 @@
         <!--footer-->
         <div class="footer">
             <div class="footer-container">
-              <div style="padding-left: 0px;padding-right: 40px;">
+                          <div style="padding-left: 0px;padding-right: 30px;">
               <img src="../../images/EB-LOGO-1.0.png" alt="footer-logo" class="footer-logo">
               <h5 style="margin-top: 26px;font-size: 16px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: #F45E5E;">#engineeringbacklogs</h5>
-              <h5 style="margin: 28px 8px 28px 0; color: #38444D;font-size: 14px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Engineering Backlogs provides explanation videos,<br>notes, past question papers, and sem-wise syllabus,<br>all tailored to your course and in accordance with<br> JNTUH regulations.</h5>
+            <h5 class="footer-para">Engineering Backlogs provides explanation videos,notes, past question papers, and sem-wise syllabus,all tailored to your course and in accordance with JNTUH regulations.</h5>
               <div style="margin-top: 26px;font-size: 16px;color: #38444D;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
                 Made in India <img class="jss121" src="../../images/india.png" alt="">
               </div>
@@ -937,6 +950,6 @@
           </div>
         </div>
         </div>
-        </div>
+        </div>        <script src="../../js/backlogs.js"></script>
     </body>
 </html>

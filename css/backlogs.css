@@ -62,7 +62,8 @@ h1,h2,h3,h4,h5,p{
 }
 .menu-bar{
   font-size: 30px;
-  position: relative;
+  color: black;
+  position: absolute;
   top: 8px;
   left: 10px;
 }
@@ -97,7 +98,7 @@ h1,h2,h3,h4,h5,p{
   float: left;
   font-size:26px;
   position: relative;
-  top: 60%;
+  top:55%;
   left: 10px;
   margin-left: 5px;
   padding: 10px;
@@ -117,8 +118,8 @@ h1,h2,h3,h4,h5,p{
 .engineering-backlogs-logo{
   height: 76px;
   width: auto;
-  position: relative;
-  top:-50px;
+  position: absolute;
+  top: -9px;
   left: 30%;
   justify-content: center;
   text-align: center;
@@ -126,7 +127,6 @@ h1,h2,h3,h4,h5,p{
   padding: 10px;
   background-color: transparent;
 }
-
   /*search bar*/
   form.search-bar input[type=text] {
     display: none;
@@ -190,8 +190,8 @@ h1,h2,h3,h4,h5,p{
   border: none;
   border-radius: 15px;
   float: right;
-  position: relative;
-  top: -108px;
+  position: absolute;
+  top: 12px;
   right: 15px;
   font-size: 15px;
   font-weight: 500;
@@ -207,7 +207,7 @@ h1,h2,h3,h4,h5,p{
 }
 .bg-1{
 background-color: #282828;
-height: 45vh;
+height: 50vh;
 width: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -2225,10 +2225,10 @@ form.search-bar input[type=text] {
   float: left;
   width: 90%;
   background: #cccccc;
-  position: relative;
+  position: absolute;
   top: 0;
   margin-top: 0px;
-  left: 150%;
+  left: 130%;
   align-items: center;
   z-index: 4;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -2245,9 +2245,9 @@ form.search-bar button {
   border: 0;
   border-left: none;
   cursor: pointer;
-  position: relative;
-  top: -37.5px;
-  left: 215%;
+  position: absolute;
+  top: 0;
+  left: 190%;
   text-align: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -2704,6 +2704,13 @@ form.PP-search-bar button {
   float: left;
   padding-left: 40px;
   padding-right: 100px;
+}
+.footer-para{
+  margin: 28px 8px 28px 0; 
+  width: 360px; 
+  color: #38444D ;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .ga-bottom{
   color: #38444D;
