@@ -20,107 +20,7 @@
   
 
   @media only screen and (min-width: 1024px) {
-/*main*/
-#topic-main {
-  padding: 0;
-  width: 100%;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-/* Fixed sidenav, full height */
-.topic-sidenav {
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top: 60px;
-  left: 0;
-  background-color: #475966;
-  overflow-x: hidden;
-  padding-top: 20px;
-  border-right: 1px solid #282828;
-  }
 
-  
-  /* Style the sidenav links and the dropdown button */
-  .topic-sidenav a{
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-   .topic-dropdown-btn {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  .topic-dropdown-btn{
-    padding: 20px;
-  }
-  
-  
-  /* On mouse-over */
-  .topic-sidenav a:hover {
-    color: white;
-  }
-  .topic-dropdown-btn:hover{
-    color: black;
-    background-color: #fff;
-  }  
-  /* Add an active class to the active dropdown button */
-  .topic-active {
-    background-color: #F45E5E;
-    color: white;
-  }
-  
-  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-  .topic-dropdown-container {
-    display: none;
-    background-color: #536674;
-    transition: max-height 0.3s ease;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-  .topic-dropdown-container a {
-    border-radius: 5px;
-  }
-  .topic-dropdown-container a:hover{
-    background-color: white;
-    color: black;
-  }
-  .topic-dropdown-container:hover{
-    color: white;
-  }
-  /* Optional: Style the caret down icon */
-  .fa-caret-down {
-    float: right;
-    padding-right: 8px;
-  }
-
-.topic-bg-container{
-  background-color: whitesmoke;
-  padding: 55px;
-  min-height: auto;
-  width: 85%;
-  margin-left: 15%;
-}
 .topic-bg-container-1{
     margin: 0;
     padding-left: 5%;
@@ -162,15 +62,6 @@ blockquote{
   width: 80%;
   text-align: center;
 }
-.footer{
-  margin-left: 15%;
-}
-h2{
-  font-size: 30px;
-}
-p,h4,li,ul{
-  font-size: 20px;
-  
-}
+
   }
 

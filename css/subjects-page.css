@@ -4,7 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  h1,h2,h3,h4,h5,p{
+ h1,h2,h3,h4,h5,p,li,ul,span,b{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
@@ -88,15 +88,12 @@
     color: black;
     background-color: #fff;
   }
-  /* Main content */
-  
-  /* Add an active class to the active dropdown button */
+ 
   .subject-active {
     background-color: #F45E5E;
     color: white;
   }
   
-  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .subject-dropdown-container {
     display: none;
     background-color: #536674;
@@ -120,11 +117,13 @@
     padding-right: 8px;
   }
 
+/*end of side bqar*/
+
 .subject-bg-container{
     background-color: whitesmoke;
     padding: 55px;
     min-height: 100vh;
-    width: 100%;
+    width: 85%;
 
 }
 .subject-bg-container-1{
