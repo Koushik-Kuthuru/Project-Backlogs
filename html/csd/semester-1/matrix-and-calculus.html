@@ -60,13 +60,13 @@
           </nav>
 
                   <!--main--> 
-        <div class="main" id="main">
-          <div class="sidenav">
+        <div class="subject-main" id="subject-main">
+          <div class="subject-sidenav">
             <a href="../../cse.html"><i class='far fa-caret-square-left' style='font-size:25px'></i></a> 
               <br>
               <!--unit-1-->
-                <button class="dropdown-btn"> <b>UNIT-I: Matrices</b> <i class="fa fa-caret-down"></i> </button>
-                <div class="dropdown-container">
+                <button class="subject-dropdown-btn"> <b>UNIT-I: Matrices</b> <i class="fa fa-caret-down"></i> </button>
+                <div class="subject-dropdown-container">
                   <br>
                   <a href="#"><i class="fa fa-play-circle" style="font-size:15px; padding-right: 6px"></i> Rank of a matrix</a>
                   <br>
@@ -91,8 +91,8 @@
                 </div>
 
                 <!--unit-2-->
-                <button class="dropdown-btn"><b>UNIT-II: Eigen values <br>and Eigen vectors</b><i class="fa fa-caret-down"></i> </button>
-                <div class="dropdown-container" id="myMenu">
+                <button class="subject-dropdown-btn"><b>UNIT-II: Eigen values <br>and Eigen vectors</b><i class="fa fa-caret-down"></i> </button>
+                <div class="subject-dropdown-container" id="myMenu">
                   <br>
                   <a href="#"> <i class="fa fa-play-circle" style="font-size:15px; padding-right: 7px"></i>Eigenvalues</a>
                   <br>
@@ -115,8 +115,8 @@
                 </div>
 
 
-                <button class="dropdown-btn"> <b> UNIT-III: Calculus </b> <i class="fa fa-caret-down"></i> </button>
-                <div class="dropdown-container" id="myMenu">
+                <button class="subject-dropdown-btn"> <b> UNIT-III: Calculus </b> <i class="fa fa-caret-down"></i> </button>
+                <div class="subject-dropdown-container" id="myMenu">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
@@ -124,8 +124,8 @@
 
 
 
-                <button class="dropdown-btn"> <b>UNIT-IV: Multivariable Calculus (Partial Differentiation and applications) </b> <i class="fa fa-caret-down"></i> </button>
-                <div class="dropdown-container" id="myMenu">
+                <button class="subject-dropdown-btn"> <b>UNIT-IV: Multivariable Calculus (Partial Differentiation and applications) </b> <i class="fa fa-caret-down"></i> </button>
+                <div class="subject-dropdown-container" id="myMenu">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
@@ -133,8 +133,8 @@
 
 
 
-                <button class="dropdown-btn"> <b>UNIT-V: Multivariable Calculus (Integration)</b><i class="fa fa-caret-down"></i> </button>
-                <div class="dropdown-container" id="myMenu">
+                <button class="subject-dropdown-btn"> <b>UNIT-V: Multivariable Calculus (Integration)</b><i class="fa fa-caret-down"></i> </button>
+                <div class="subject-dropdown-container" id="myMenu">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
@@ -143,9 +143,9 @@
               <br>
           </div>
           
-          <div class="bg-container">
-            <div class="bg-container-1">
-              <img src="../../../images/Matrices-and-Calculus.png" alt="Matrices-and-Calculus" class="image-main">
+          <div class="subject-bg-container">
+            <div class="subject-bg-container-1">
+              <img src="../../../images/Matrices-and-Calculus.png" alt="Matrices-and-Calculus" class="subject-image-main">
               <h2><b>Matrices and Calculus</b></h2>
               <p>Mathematical Knowledge at pre-university level</p>
               <br>
@@ -228,20 +228,8 @@
 
         <script>
           /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
+        <script src="../../../js/subject-page.js"></script>
 
 
           </script>

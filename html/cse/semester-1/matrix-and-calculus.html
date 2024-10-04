@@ -11,7 +11,7 @@
         <link rel="icon" type="image/x-icon" href="../../../images/logo.png">
     </head>
     <body>
-        <div class="subject-bg-container">
+        <div class="bg-container">
             <!--Navigation Bar-->
           <nav class="Navigation-Bar">
             <span class="menu-bar" onclick="openNav()">&#9776;</span>
@@ -331,25 +331,7 @@
         </div>
         </div>
 
-        <script>
-          /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("subject-dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-
-
-          </script>
-        <script src="../../js/backlogs.js"></script>
+        <script src="../../../js/backlogs.js"></script>
+        <script src="../../../js/subject-page.js"></script>
     </body>
 </html>
