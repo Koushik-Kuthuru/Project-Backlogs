@@ -12,3 +12,11 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+function opensubNav() {
+  document.getElementById("sub-sidenav").style.width = "250px";
+}
+
+function closesubNav() {
+  document.getElementById("sub-sidenav").style.width = "0";
+}

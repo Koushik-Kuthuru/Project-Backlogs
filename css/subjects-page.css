@@ -9,7 +9,201 @@
   }
   
   @media only screen and (max-width:600px) {
-    /*your css style for size smaller than 900px*/ 
+    /*main*/
+#subject-main {
+  padding: 0;
+  border-right: none;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 20px; 
+}
+/* Fixed sidenav, full height */
+.subject-sidenav {
+  transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 0;
+  background-color: #475966;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: 1px solid #282828;
+  
+}
+.subject-sub-sidenav-btn{
+  background-color: #475966;
+  position: absolute;
+  float: left;
+  left: 0;
+  padding: 10px;
+  top: 60px;
+}
+.subject-closebtn{
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+  transform: rotate(180deg);
+}
+
+/* Style the sidenav links and the dropdown button */
+.subject-sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .subject-dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subject-dropdown-btn{
+  padding: 20px;
+}
+
+
+/* On mouse-over */
+.subject-sidenav a:hover {
+  color: white;
+}
+.subject-dropdown-btn:hover{
+  color: black;
+  background-color: #fff;
+}
+
+.subject-active {
+  background-color: #F45E5E;
+  color: white;
+}
+
+.subject-dropdown-container {
+  display: none;
+  background-color: #536674;
+  transition: max-height 0.3s ease;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.subject-dropdown-container a {
+  border-radius: 5px;
+}
+.subject-dropdown-container a:hover{
+  background-color: white;
+  color: black;
+}
+.subject-dropdown-container:hover{
+  color: white;
+}
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+/*end of side bqar*/
+
+
+.subject-bg-container{
+  background-color: whitesmoke;
+  padding: 50px;
+  min-height: 100vh;
+  width: 100%;
+
+}
+.subject-bg-container-1{
+  margin: 0;
+}
+.subject-image-main{
+width: 200px;
+border-radius: 10px;
+}
+.subject-bg-container-1 h2{
+  font-size: 20px;
+}
+.subject-bg-container-1 h1{
+  font-size: 30px;
+}
+.subject-bg-container-1 h3{
+  font-size: 20px;
+}
+.subject-bg-container-1 p{
+  font-size: 16px;
+}
+
+.subject-grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr  ;
+grid-row-gap: 32px;
+grid-column-gap: 20px;
+}
+.subject-grid-item{
+width: 120px;
+}
+.subject-CourseCard {
+position: relative;
+top: 0;
+cursor: pointer;
+}
+.subject-CourseCard-Img {
+padding-top: 100%;
+border-radius: 0;
+position: relative;
+
+}
+.subject-MuiCardMedia-root {
+display: block;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.subject-jss218:last-child {
+padding: 0;
+}
+.subject-MuiCardContent-root:last-child {
+padding-bottom: 24px;
+}
+.subject-jss218 {
+padding: 0;
+margin-top: 12px;
+}
+.subject-MuiCardContent-root {
+padding: 16px;
+text-decoration: none;
+}
+
+.subject-CourseCard-Title {
+color:#282828;
+margin-top: 0;
+padding-left: 5px;
+text-align: center;
+text-decoration: none;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: .15px;
+
+}
   }
   @media only screen and (min-width: 600px) and (max-width: 900px) {
     /*your css style for size between 600pz and 90px*/
@@ -78,8 +272,12 @@
   .subject-dropdown-btn{
     padding: 20px;
   }
-  
-  
+  .subject-sub-sidenav-btn{
+    display: none;
+  }
+  .subject-closebtn{
+    display: none;
+  }
   /* On mouse-over */
   .subject-sidenav a:hover {
     color: white;

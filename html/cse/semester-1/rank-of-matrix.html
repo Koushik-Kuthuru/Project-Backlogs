@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../../../css/topic-page.css">
-        <link rel="stylesheet" href="../../../css/backlogs.css">
-        <link rel="stylesheet" href="../../../css/subjects-page.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/backlogs.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/subjects-page.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -18,10 +18,11 @@
             <span class="menu-bar" onclick="openNav()">&#9776;</span>
             <div id="mySidenav" class="sidenav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <hr>
-              <a href="#">Courses</a> <hr>
-              <a href="#">Syllabus</a> <hr>
-              <a href="#">Past Papers</a> <hr>
-              <a href="#">Earn</a> <hr>
+              <a href="../../courses.html">Courses</a> <hr>
+              <a href="../../syllabus.html">Syllabus</a> <hr>
+              <a href="../../notes.html">Notes</a> <hr>
+              <a href="../../#">Past Papers</a> <hr>
+              <a href="../../#">Earn</a> <hr>
               <a href="#" class="icons"><i class='fab fa-instagram' ></i></a>
               <a href="#" class="icons"><i class='fab fa-facebook-square' ></i></a>
               <a href="#" class="icons"><i class='fab fa-linkedin' ></i></a>
@@ -60,9 +61,14 @@
             <a href="../../sign-in.html" class="btn-sign-up" title="Create a new account">SIGN UP</a>
             </div>    
           </nav>
-<!--side nav bar-->
-          <div class="subject-sidenav">
-            <a href="../cse.html"><i class='far fa-caret-square-left' style='font-size:25px'></i></a> 
+<!--main-->
+          <div class="topic-main" id="topic-main">
+
+              <div class="subject-sidenav" id="sub-sidenav">
+                <div class="subject-closebtn"><a href="javascript:void(0)"  onclick="closesubNav()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 16 19"><g fill="white" fill-rule="evenodd"><path d="M0 18.61h3.541V0H0zM15.935 9.014l-3.541 2.617V9.887H5.311V8.142h7.083V6.397z"></path></g></svg>
+                </a></div>
+              <br>
               <br>
               <!--unit-1-->
                 <button class="subject-dropdown-btn"> <b>UNIT-I: Matrices</b> <i class="fa fa-caret-down"></i> </button>
@@ -209,10 +215,12 @@
 
               <br>
           </div>
-        <!--main--> 
-        <div class="subject-main" id="subject-main">
-          <div class="subject-bg-container">
+
+          <div class="topic-bg-container">
             <div class="topic-bg-container-1">
+              <div class="subject-sub-sidenav-btn" onclick="opensubNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 16 19"><g fill="white" fill-rule="evenodd"><path d="M0 18.61h3.541V0H0zM15.935 9.014l-3.541 2.617V9.887H5.311V8.142h7.083V6.397z"></path></g></svg>
+              </div>
               <br>
               <a href="rank-of-matrix-notes.html" class="topic-next-btn">Next > </a>
               <br><br>
@@ -220,7 +228,7 @@
               <h2><b>Rank of a matrix</b></h2>
               <hr>
               <br>
-              <iframe width="100%" height="700" src="https://www.youtube.com/embed/vtv73A0ZYpw?si=iqP5-7GW5LoZBbnh&amp;start=6?rel=0"
+              <iframe  class="yt-video" src="https://www.youtube.com/embed/vtv73A0ZYpw?si=iqP5-7GW5LoZBbnh&amp;start=6?rel=0"
                title="YouTube video player" frameborder="0" 
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
