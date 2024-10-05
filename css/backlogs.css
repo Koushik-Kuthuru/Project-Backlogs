@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,p{
   padding: 10px;
 }
 .sidenav a:hover {
-  color: blue;
+  color: #F45E5E;
 }
 
 .sidenav .closebtn {
@@ -335,6 +335,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .bg-3-container{
   padding: 40px 10px 0 10px;
   margin: 0 0 0 0;
+}
+.syllabus-bg-3-padding{
+  margin: 60px 10%;
 }
 .syllabus-h1{
   text-align: center;
@@ -2239,7 +2242,7 @@ form.search-bar button {
   width: 40%;
   padding: 9px;
   background: #F45E5E;
-  color: #000;
+  color: white;
   border-radius: 20px;
   font-size: 17px;
   border: 0;
@@ -2274,8 +2277,7 @@ form.search-bar::after {
   outline: none;
   text-decoration: none;
   color: #fff;
-  background-color: #F45E5E;
-  color: #000;
+  background-color: #F45E5E;;
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px  #999;
@@ -2308,7 +2310,6 @@ form.search-bar::after {
   text-decoration: none;
   color: #fff;
   background-color: #F45E5E;
-  color: #000;
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px  #999;
@@ -2469,6 +2470,9 @@ form.welcome-search-bar button {
 .bg-3-container{
   padding: 60px 50px 0 50px;
   margin: 0 5% 0 5%;
+}
+.syllabus-bg-3-padding{
+  margin: 60px 20%;
 }
 .syllabus-h1{
   text-align: center;
