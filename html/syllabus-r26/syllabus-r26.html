@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="../../css/syllabus-r18.css">
+        <link rel="stylesheet" href="../../css/syllabus-r26.css">
+        <link rel="stylesheet" href="../../css/backlogs.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -13,6 +14,22 @@
         <div class="bg-container">
     <!--Navigation Bar-->
     <nav class="Navigation-Bar">
+        <span class="menu-bar" onclick="openNav()">&#9776;</span>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <hr>
+              <a href="../courses.html">Courses</a> <hr>
+              <a href="../syllabus.html">Syllabus</a> <hr>
+              <a href="../notes.html">Notes</a><hr>
+              <a href="../#">Past Papers</a> <hr>
+              <a href="../#">Earn</a> <hr>
+              <a href="#" class="icons"><i class='fab fa-instagram' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-facebook-square' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-linkedin' ></i></a>
+              <a href="#" class="icons"><i class='fab fa-twitter-square' ></i></a>
+            </div>
+            <div class="mymenu" onclick="openNavmenu()" >
+               menu
+            </div>
 <div><a href="../backlogs.html"><img src="../../images/EB-LOGO.png" class="engineering-backlogs-logo" title="Home"/></a></div>
         <div class="position-nav">
           <div class="pill-nav">
@@ -45,308 +62,306 @@
         </div>    
       </nav>
       <!--Main-->
-      <div id="main">
-        <div class="bg-1">
-            <div class="bg-1-container">
-                <h1 class="syllabus-h1">Syllabus-R26</h1>
+      <div id="syllabus-r26-main">
+        <div class="syllabus-r26-bg-1">
+            <div class="syllabus-r26-bg-1-container">
+                <h1 class="syllabus-r26-h1">Syllabus-R26</h1>
                 <div style="text-align: center;">
-                <form class="syllabus-r18-search-bar" action="/action_page.php">
+                <form class="syllabus-r26-search-bar" action="/action_page.php">
                     <input type="text" placeholder="Search syllabus,e.g.IT SEM II " name="search2" >
                     <button type="submit"><i class="fa fa-search"></i></button>
                   </form>
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="bg-2">
-            <div class="bg-2-container">
-
+        <div class="syllabus-r26-bg-2">
+            <div class="syllabus-r26-bg-2-container">
+            <!--first year syllabus-->
             <div>
-                <h2 class="year">First year Engineering Syllabus</h2>
-                <h3 class="semester">Semester I and Semester II</h3>
-                <div class="row">
+                <h2 class="syllabus-r26-year">First year Engineering Syllabus</h2>
+                <h3 class="syllabus-r26-semester">Semester I and Semester II</h3>
+                <div class="syllabus-r26-row">
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM I</a></li>
+                        <li><a href="./cse-r26-sem-1.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM I</a></li>
+                        <li><a href="./it-r26-sem-1.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM I</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-1.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM I</a></li>
+                        <li><a href="./csd-r26-sem-1.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM I</a></li>
+                        <li><a href="./AI&ML-r26-sem-1.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM I</a></li>
+                        <li><a href="./AIDS-r26-sem-1.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM I</a></li>
+                        <li><a href="./ECE-r26-sem-1.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM I</a></li>
+                        <li><a href="./EEE-r26-sem-1.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM I</a></li>
+                        <li><a href="./civil-r26-sem-1.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM I</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM I</a></li>
+                        <li><a href="./mech-r26-sem-1.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM I</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM II</a></li>
+                        <li><a href="./cse-r26-sem-2.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM II</a></li>
+                        <li><a href="./it-r26-sem-2.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM II</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-2.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM II</a></li>
+                        <li><a href="./csd-r26-sem-2.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM II</a></li>
+                        <li><a href="./AI&ML-r26-sem-2.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM II</a></li>
+                        <li><a href="./AIDS-r26-sem-2.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM II</a></li>
+                        <li><a href="./ECE-r26-sem-2.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM II</a></li>
+                        <li><a href="./EEE-r26-sem-2.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM II</a></li>
+                        <li><a href="./civil-r26-sem-2.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM II</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM II</a></li>
+                        <li><a href="./mech-r26-sem-2.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM II</a></li>
                     </ul>
                 </div>
                 </div>
             </div>
-
+            <!--second year syllabus-->
             <div>
-                <h2 class="year">Second year Engineering Syllabus</h2>
-                <h3 class="semester">Semester III and Semester IV</h3>
-                <div class="row">
+                <h2 class="syllabus-r26-year">Second year Engineering Syllabus</h2>
+                <h3 class="syllabus-r26-semester">Semester III and Semester IV</h3>
+                <div class="syllabus-r26-row">
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM III</a></li>
+                        <li><a href="./cse-r26-sem-3.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM III</a></li>
+                        <li><a href="./it-r26-sem-3.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM III</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-3.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM III</a></li>
+                        <li><a href="./csd-r26-sem-3.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM III</a></li>
+                        <li><a href="./AI&ML-r26-sem-3.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM III</a></li>
+                        <li><a href="./AIDS-r26-sem-3.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM III</a></li>
+                        <li><a href="./ECE-r26-sem-3.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM III</a></li>
+                        <li><a href="./EEE-r26-sem-3.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM III</a></li>
+                        <li><a href="./civil-r26-sem-3.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM III</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM III</a></li>
+                        <li><a href="./mech-r26-sem-3.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM III</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM IV</a></li>
+                        <li><a href="./cse-r26-sem-4.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM IV</a></li>
+                        <li><a href="./it-r26-sem-4.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM IV</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-4.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM IV</a></li>
+                        <li><a href="./csd-r26-sem-4.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM IV</a></li>
+                        <li><a href="./AI&ML-r26-sem-4.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM IV</a></li>
+                        <li><a href="./AIDS-r26-sem-4.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM IV</a></li>
+                        <li><a href="./ECE-r26-sem-4.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM IV</a></li>
+                        <li><a href="./EEE-r26-sem-4.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM IV</a></li>
+                        <li><a href="./civil-r26-sem-4.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM IV</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM IV</a></li>
+                        <li><a href="./mech-r26-sem-4.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM IV</a></li>
                     </ul>
                 </div>
                 </div>
             </div>
-
+            <!--Third year syllabus-->
             <div>
-                <h2 class="year">Third year Engineering Syllabus</h2>
-                <h3 class="semester">Semester V and Semester VI</h3>
-                <div class="row">
+                <h2 class="syllabus-r26-year">Third year Engineering Syllabus</h2>
+                <h3 class="syllabus-r26-semester">Semester V and Semester VI</h3>
+                <div class="syllabus-r26-row">
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM V</a></li>
+                        <li><a href="./cse-r26-sem-5.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM V</a></li>
+                        <li><a href="./it-r26-sem-5.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM V</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-5.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM V</a></li>
+                        <li><a href="./csd-r26-sem-5.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM V</a></li>
+                        <li><a href="./AI&ML-r26-sem-5.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM V</a></li>
+                        <li><a href="./AIDS-r26-sem-5.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM V</a></li>
+                        <li><a href="./ECE-r26-sem-5.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM V</a></li>
+                        <li><a href="./EEE-r26-sem-5.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM V</a></li>
+                        <li><a href="./civil-r26-sem-5.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM V</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM V</a></li>
+                        <li><a href="./mech-r26-sem-5.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM V</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM VI</a></li>
+                        <li><a href="./cse-r26-sem-6.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM VI</a></li>
+                        <li><a href="./it-r26-sem-6.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VI</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-6.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM VI</a></li>
+                        <li><a href="./csd-r26-sem-6.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VI</a></li>
+                        <li><a href="./AI&ML-r26-sem-6.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VI</a></li>
+                        <li><a href="./AIDS-r26-sem-6.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VI</a></li>
+                        <li><a href="./ECE-r26-sem-6.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VI</a></li>
+                        <li><a href="./EEE-r26-sem-6.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM VI</a></li>
+                        <li><a href="./civil-r26-sem-6.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM VI</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM VI</a></li>
+                        <li><a href="./mech-r26-sem-6.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM VI</a></li>
                     </ul>
                 </div>
                 </div>
             </div>
-
+            <!--final year syllabus-->
             <div>
-                <h2 class="year">Final year Engineering Syllabus</h2>
-                <h3 class="semester">Semester VII and Semester VIII</h3>
-                <div class="row">
+                <h2 class="syllabus-r26-year">Final year Engineering Syllabus</h2>
+                <h3 class="syllabus-r26-semester">Semester VII and Semester VIII</h3>
+                <div class="syllabus-r26-row">
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM VII</a></li>
+                        <li><a href="./cse-r26-sem-7.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM VII</a></li>
+                        <li><a href="./it-r26-sem-7.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VII</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-7.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM VII</a></li>
+                        <li><a href="./csd-r26-sem-7.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VII</a></li>
+                        <li><a href="./AI&ML-r26-sem-7.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VII</a></li>
+                        <li><a href="./AIDS-r26-sem-7.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VII</a></li>
+                        <li><a href="./ECE-r26-sem-7.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VII</a></li>
+                        <li><a href="./EEE-r26-sem-7.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM VII</a></li>
+                        <li><a href="./civil-r26-sem-7.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM VII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM VII</a></li>
+                        <li><a href="./mech-r26-sem-7.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM VII</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING - SEM VIII</a></li>
+                        <li><a href="./cse-r26-sem-8.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">INFORMATION TECHNOLOGY - SEM VIII</a></li>
+                        <li><a href="./it-r26-sem-8.html" class="syllabus-r26-courses">INFORMATION TECHNOLOGY - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VIII</a></li>
+                        <li><a href="./cse(AI&ML)-r26-sem-8.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND ENGINEERING (AI & ML) - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">COMPUTER SCIENCE AND DESIGN - SEM VIII</a></li>
+                        <li><a href="./csd-r26-sem-8.html" class="syllabus-r26-courses">COMPUTER SCIENCE AND DESIGN - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VIII</a></li>
+                        <li><a href="./AI&ML-r26-sem-8.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VIII</a></li>
+                        <li><a href="./AIDS-r26-sem-8.html" class="syllabus-r26-courses">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VIII</a></li>
+                        <li><a href="./ECE-r26-sem-8.html" class="syllabus-r26-courses">ELECTRONICS AND COMMUNICATION ENGINEERING - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VIII</a></li>
+                        <li><a href="./EEE-r26-sem-8.html" class="syllabus-r26-courses">ELECTRICAL AND ELECTRONICS ENGINEERING - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">CIVIL ENGINEERING - SEM VIII</a></li>
+                        <li><a href="./civil-r26-sem-8.html" class="syllabus-r26-courses">CIVIL ENGINEERING - SEM VIII</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#" class="courses">MECHANICAL ENGINEERING - SEM VIII</a></li>
+                        <li><a href="./mech-r26-sem-8.html" class="syllabus-r26-courses">MECHANICAL ENGINEERING - SEM VIII</a></li>
                     </ul>
                 </div>
                 </div>
             </div>
             </div>
-        </div> -->
-        
+        </div>
         <!--footer-->
         <div class="footer">
             <div class="footer-container">
@@ -389,6 +404,7 @@
         </div>
       </div>
 
-        </div>        <script src="../../js/backlogs.js"></script>
+        </div>        
+        <script src="../../js/backlogs.js"></script>
     </body>
 </html>
