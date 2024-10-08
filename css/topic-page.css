@@ -88,7 +88,7 @@
     height: 25vh;
   }
   .topic-pdf{
-    width: 80%;
+    width: 40vh;
     height: 70vh;
   }
 
@@ -115,7 +115,7 @@
     .topic-bg-container{
       background-color: whitesmoke;
       padding: 55px;
-      min-height: 100vh;
+      min-height: 100%;
       width: 85%;
   
   }  .topic-bg-container-1{

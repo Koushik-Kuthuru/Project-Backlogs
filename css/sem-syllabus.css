@@ -9,7 +9,50 @@
   }
   
   @media only screen and (max-width:600px) {
-    /*your css style for size smaller than 900px*/ 
+    /*main*/
+#sem-main {
+    padding: 0;
+    border-right: none;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.sem-bg-1{
+  background-color: #282828;
+  height: 10vh;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sem-bg-1-container{
+  margin: 0 0 0 0;
+  padding: 0 20px 0 20px;
+}
+.sem-bg-2{
+  background-color: #e2e2e2;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.sem-bg-2-container{
+  margin: 0 5% 0 5%;
+}
+.sem-syllabus-h1{
+  text-shadow: 4px 1px 2px #999;
+  margin: 0 10px 20px 0;
+  text-align: center;
+}
+.sem-syllabus-span{
+  font-size: 32.5px; 
+  color: whitesmoke; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.syllabus-pdf{
+  width: 100%;
+  height: 600px;
+}
+   
   }
   @media only screen and (min-width: 600px) and (max-width: 900px) {
     /*your css style for size between 600pz and 90px*/
@@ -19,8 +62,7 @@
   }
   
   
-  @media only screen and (min-width: 1024px){
-
+@media only screen and (min-width: 1024px){
 /*main*/
 #sem-main {
     padding: 0;
@@ -50,6 +92,19 @@
 .sem-bg-2-container{
   margin: 0 20% 0 20%;
 }
-
+.sem-syllabus-h1{
+  text-shadow: 4px 1px 2px #999;
+  margin: 0 10px 20px 0;
+  text-align: center;
+}
+.sem-syllabus-span{
+  font-size: 60px; 
+  color: whitesmoke; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.syllabus-pdf{
+  width: 100%;
+  height: 100vh;
+}
     
 }
