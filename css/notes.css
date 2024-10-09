@@ -16,22 +16,23 @@
       margin-top: 60px;
     }
     .notes-bg-1{
-    background-color: #38444D;
-    height: 10vh;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+      background-color: #38444D;
+      height: auto;
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 10px;
     }
     .notes-bg-1-container{
-    margin: 0 10% 0 10%;
-    padding: 0 40px 0 40px;
+      margin: 0 10% 0 10%;
+      padding: 0 40px 0 40px;
     }
     .notes-title-h1{
-      text-shadow: 4px 1px 2px #999; 
-      margin: 0 10px 40px 0; text-align: center;
+      text-shadow: 2px 1px 2px #999; 
+      margin: 0; 
+      text-align: center;
     }
     .notes-title-span{
-      font-size: 60px; 
+      font-size: 45px; 
       color: whitesmoke; 
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -78,7 +79,7 @@
       display:table;
     }  
     .notes-course-h2{
-      font-size:25px;
+      font-size:20px;
       font-weight:1200;
       margin: 10px 10px 10px 5px;
       text-decoration: none;

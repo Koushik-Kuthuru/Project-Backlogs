@@ -29,7 +29,7 @@
     }
     .syllabus-bg-1{
       background-color: #efefef;
-      height: 60vh;
+      height: auto;
       width: 100%;
     }
     .syllabus-bg-1-container{
@@ -38,13 +38,13 @@
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.40);
     }
     .syllabus-title-h1{
-      text-shadow: 4px 1px 2px  #999;
+      text-shadow: 2px 1px 1px  #999;
       margin-bottom: 15px;
       margin-top: 0; 
       text-align: center;
     }
     .syllabus-title-span{
-      font-size: 60px; 
+      font-size: 45px; 
       color: whitesmoke; 
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -71,7 +71,7 @@
     .syllabus-container{
       color: #282828;
       background-color:white;
-      height: 17vh;
+      height: auto;
       padding: 40px;
       border-radius: 10px;
       position: relative;

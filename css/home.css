@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,p{
   font-size: 30px;
   color: black;
   position: absolute;
-  top: 8px;
+  top: 15px;
   left: 10px;
 }
 .mymenu{
@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,p{
   float: left;
   font-size:26px;
   position: relative;
-  top:55%;
+  top: 48%;
   left: 10px;
   margin-left: 5px;
   padding: 10px;
@@ -207,14 +207,14 @@ h1,h2,h3,h4,h5,p{
 }
 .bg-1{
 background-color: #282828;
-height: 50vh;
+height: auto;
 width: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
 }
 .bg-1-container{
 margin-left: 15px;
-padding: 0 60px 0 6px;
+padding: 0px 10px 60px 10px;
 }
 .welcome{
 font-size: 50px;
@@ -262,7 +262,7 @@ border-top-left-radius: 0;
 border-bottom-left-radius: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.start-sucess{
+.start-success{
   /*float: right;
   position: absolute;
   width: 200px;
@@ -273,13 +273,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*bg-2*/
 .bg-2{
   background-color: #999;
-  height: 70vh;
+  height: 75vh;
   width: 100%;
   margin-top: -30px;
   margin-bottom: -40px;
 }
 .bg-2-container{
-  padding: 40px 10px 0 10px;
+  padding: 40px 10px 40px 10px;
   margin: 0 10px 0 20px;
   
 }
@@ -329,11 +329,11 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*bg-3*/
 .bg-3{
   background-color: #282828;
-  height: 75vh;
+  height: 100%;
   width: 100%;
 }
 .bg-3-container{
-  padding: 40px 10px 0 10px;
+  padding: 40px 10px 40px 10px;
   margin: 0 0 0 0;
 }
 .syllabus-bg-3-padding{
@@ -369,7 +369,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .syllabus-container{
   color: #282828;
   background-color:whitesmoke;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
   border-radius: 10px;
   position: relative;
@@ -384,12 +384,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*bg-4*/
 .bg-4{
   background-color: #38444D;
-  height: 30vh;
+  height: auto;
   width: 100%;
   margin-top: -10px;
 }
 .bg-4-container{
-  padding: 40px 10px 0 10px;
+  padding: 40px 10px 50px 10px;
   margin: 0 0 0 0;
 }
 .notes-h1{
@@ -449,12 +449,12 @@ form.notes-search-bar button {
 /*bg-5*/
 .bg-5{
   background-color: #282828;
-  height: 30vh;
+  height: auto;
   width: 100%;
   margin-top: -10px;
 }
 .bg-5-container{
-  padding: 40px 10px 0 10px;
+  padding: 40px 10px 50px 10px;
   margin: 0 0 0 0;
 }
 .PP-h1{
@@ -514,12 +514,12 @@ form.PP-search-bar button {
 /*bg-6*/
 .bg-6{
   background-color: #999;
-  height: 70vh;
+  height: auto;
   width: 100%;
   margin-top: -10px;
 }
 .bg-6-container{
-  padding: 40px 10px 0 10px;
+  padding: 40px 10px 40px 10px;
   margin: 0 0 0 0;
 }
 .earn-h1{
@@ -549,7 +549,7 @@ form.PP-search-bar button {
 /*footer*/
 .footer{
   background-color: #fff;
-  height: 115vh;
+  height: auto;
   width: 100%;
   border-top: 1px solid #282828;
   padding-bottom: 0;
@@ -557,7 +557,8 @@ form.PP-search-bar button {
 .footer-container{
   margin-left: 10%;
   margin-right: 10%;
-  padding: 60px 0 32px;
+  padding: 60px 0 32px ;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
 }

@@ -19,9 +19,9 @@
 }
 .courses-bg-1{
 background-color: #282828;
-height: 10vh;
+height: auto;
 width: 100%;
-padding-top: 10px;
+padding-top: 5px;
 padding-bottom: 10px;
 }
 .courses-bg-1-container{
@@ -50,12 +50,12 @@ align-items: center;
   width: 100%;
 }
 .courses-title-h1{
-text-shadow: 4px 1px 2px #999;  
+text-shadow: 2px 1px 2px #999;  
 text-align: center;
 margin: 0;
 }
 .courses-title-showdow{
-font-size: 60px; 
+font-size: 45px; 
 color: whitesmoke; 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

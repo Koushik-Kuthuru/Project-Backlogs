@@ -30,15 +30,15 @@
 
 }
 .btech-bg-1{
-height: 15vh;
+height: auto;
 width: 100%;
 padding-top: 30px;
 padding-bottom: 25px;
 
 }
 .btech-bg-1-container{
-margin: 0 5% 0 5%;
-padding: 0 20px 0 20px;
+margin: 0 0% 0 0%;
+padding: 0 10px 0 10px;
 }
 .btech-bg-2{
 background-color: whitesmoke;
@@ -54,7 +54,7 @@ margin: 0 5% 0 5%;
   text-shadow: 4px 1px 2px #484747;
   margin: 0;
   text-align: center;
-  font-size: 35px;
+  font-size: 28px;
   color: white;
   font-weight: 900;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -71,7 +71,7 @@ margin: 0 5% 0 5%;
 }
 .btech-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr  ;
+  grid-template-columns: 1fr 1fr 1fr ;
   grid-row-gap: 10px;
   grid-column-gap: 20px;
   margin-left: 20px;
@@ -81,7 +81,7 @@ margin: 0 5% 0 5%;
   align-items:center ;
 }
 .btech-grid-item{
-  width: 150px;
+  width: 100px;
 }
 .btech-CourseCard {
   position: relative;
@@ -104,7 +104,7 @@ margin: 0 5% 0 5%;
   padding: 0;
 }
 .btech-MuiCardContent-root:last-child {
-  padding-bottom: 24px;
+  padding-bottom: 14px;
 }
 .btech-jss218 {
   padding: 0;
@@ -116,7 +116,6 @@ margin: 0 5% 0 5%;
 }
 
 .btech-CourseCard-Title {
-  display: none;
   color:#282828;
   margin-top: 0;
   margin-bottom: 0;
@@ -125,7 +124,7 @@ margin: 0 5% 0 5%;
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
-  letter-spacing: .15px;
+  letter-spacing: .10px;
 
 }
 

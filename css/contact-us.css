@@ -18,7 +18,7 @@
 }
 .contact-bg-0{
 background-color: #38444D;
-height: 10vh;
+height: auto;
 width: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -33,7 +33,7 @@ margin: 0 0px 14px 0;
 text-align: center;
 }
 .contact-title-span{
-font-size: 60px; 
+font-size: 45px; 
 color: whitesmoke; 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -43,7 +43,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 120vh;
+  height: auto;
   padding: 30px;
 }
 .contact-bg-1-container{
@@ -78,7 +78,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 /* Style inputs */
 input[type=text], select, textarea {
-  width: 33vh;
+  width: 35vh;
   padding: 12px;
   border: 1px solid #666161;
   margin-top: 6px;
