@@ -1,16 +1,23 @@
 var dropdown = document.getElementsByClassName("subject-dropdown-btn");
-var i;
 
-for (i = 0; i < dropdown.length; i++) {
+for (var i = 0; i < dropdown.length; i++) {
+  var buttonId = dropdown[i].id; // assume each button has a unique id
   dropdown[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
+    dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+    localStorage.setItem(buttonId + "-dropdownState", this.classList.contains("active"));
   });
+}
+
+// Check local storage on page load and set the dropdown state accordingly
+for (var i = 0; i < dropdown.length; i++) {
+  var buttonId = dropdown[i].id;
+  var dropdownState = localStorage.getItem(buttonId + "-dropdownState");
+  if (dropdownState === "true") {
+    dropdown[i].classList.add("active");
+    dropdown[i].nextElementSibling.style.display = "block";
+  }
 }
 
 function opensubNav() {
