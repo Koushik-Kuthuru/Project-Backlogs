@@ -2652,7 +2652,7 @@ form.PP-search-bar button {
 /*bg-6*/
 .bg-6{
   background-color: #999;
-  height: 18%;
+  height: auto;
   width: 100%;
   margin-top: -10px;
 }
@@ -2681,7 +2681,8 @@ form.PP-search-bar button {
   align-items: center;
   position: relative;
   left: 32.5%;
-  top: 80px;
+  top: 75px;
+  padding-bottom: 70px;
 }
 
 
