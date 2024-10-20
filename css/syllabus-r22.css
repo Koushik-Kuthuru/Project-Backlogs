@@ -82,7 +82,7 @@ color: black;
 font-size: 25.5px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-align: center;
-margin-bottom: 25px;
+margin-bottom: 15px;
 text-shadow: 1px 1px 0px #666;
 padding-top: 60px;
 }
@@ -93,7 +93,7 @@ font-size: 22.5px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: 900;
 text-align: center;
-margin-top: 5px;
+margin-top: 22.5px;
 text-shadow: 1px 1px 0px #282828;
 }
 .syllabus-r22-courses{
@@ -115,8 +115,12 @@ justify-content: space-between;
 .syllabus-r22-row ul{
 padding-top: 20px;
 }
-
+ul{
+  padding-left: 25px;
+  list-style-type:square;
 }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 900px) {
     /*your css style for size between 600pz and 90px*/
 }
@@ -231,6 +235,7 @@ padding: 40px;
 }
 .syllabus-r22-row ul{
 padding-top: 20px;
+
 }
 
 }
